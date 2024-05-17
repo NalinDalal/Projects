@@ -1,0 +1,49 @@
+O1.GitHub Pages
+GitHub Pages is a free hosting service provided by GitHub. It's an excellent choice for deploying static websites or web apps
+https://pages.github.com
+
+02.Vercel
+Vercel is another fantastic option for hosting web applications, particularly those built with popular JavaScript frameworks like React, Vue, and Next.js.
+vercel.com
+
+03.Cloudflare
+Cloudflare is another fantastic option for hosting web applications, particularly those built with popular JavaScript frameworks like React, Vue, and Next.js.
+cloudflare.com
+
+04.AWS
+AWS is another fantastic option for hosting web applications, particularly those built with popular JavaScript frameworks like React, Vue, and Next.js.
+aws.amazon.com/free
+
+05.DigitalOcean
+DigitalOcean is another fantastic option for hosting web applications, particularly those built with popular JavaScript frameworks like React, Vue, and Next.js.
+www.digitalocean.com
+
+06.Heroku
+Heroku is another fantastic option for hosting web applications, particularly those built with popular JavaScript frameworks like React, Vue, and Next.js.
+www.heroku.com
+
+07.Netlify
+Netlify is another fantastic option for hosting web applications, particularly those built with popular JavaScript frameworks like React, Vue, and Next.js.
+www.netlify.com
+
+08.Fastly
+Fastly is another fantastic option for hosting web applications, particularly those built with popular JavaScript frameworks like React, Vue, and Next.js.
+www.fastly.com
+
+09.Surge
+Surge is another fantastic option for hosting web applications, particularly those built with popular JavaScript frameworks like React, Vue, and Next.js.
+www.surge.sh
+
+10.Firebase Hosting
+Firebase Hosting is Google's hosting service tailored to mobile and web developers. It's particularly well-suited for hosting web apps, PWAs and mobile apps.
+https://firebase.google.com/products/hosting
+
+11.Render
+Render is a unified cloud to build and run all your apps and websites with free TLS certificates, global CDN, private networks and auto deploys from Git.
+https://render.com
+
+12.Cyclic
+Cyclic is a cloud platform focused on full-stack applications. There are no servers and each app is deployed entirely on serverless cloud infrastructure.
+https://www.cyclic.sh/
+
+

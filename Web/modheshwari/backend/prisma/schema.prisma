@@ -1,0 +1,65 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// General user of the app, this will be ranging in thousands
+model User {
+  id             Int      @id @default(autoincrement())
+  name           String
+  surname        String
+  gender         String
+  dateOfBirth    DateTime
+  level          Int      @default(4)
+  residenceCity  String
+  bloodGroup     String
+  qualification  String
+  Gotra          String
+}
+
+// Head of the app, adhyaksh
+model Head {
+  id             Int      @id @default(autoincrement())
+  name           String
+  surname        String
+  gender         String
+  dateOfBirth    DateTime
+  level          Int      @default(1)
+  residenceCity  String
+}
+
+// Admin of the app, head of the Gotra
+model Admin {
+  id             Int      @id @default(autoincrement())
+  name           String
+  surname        String
+  gender         String
+  dateOfBirth    DateTime
+  level          Int      @default(2)
+  residenceCity  String
+}
+
+// Sub-Admin of the app, Sub-Head of Gotra
+model SubAdmin {
+  id             Int      @id @default(autoincrement())
+  name           String
+  surname        String
+  gender         String
+  dateOfBirth    DateTime
+  level          Int      @default(3)
+  residenceCity  String
+}
+
+// Family Module of the app
+model Family{
+id  Int
+surname String
+head String
+}
