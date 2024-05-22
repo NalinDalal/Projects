@@ -1,4 +1,4 @@
-//import React from "react";
+import React from "react";
 import "./App.css";
 import GitHubGraph from "./GitHubGraph";
 //import LeetCodeStats from "./LeetCodeStats";
@@ -23,7 +23,10 @@ function App() {
         <br />
         <br />
         <br />
-        <p> My GitHub Activity and Contribution Graph:</p>
+        <p className="{color=#10b981}">
+          {" "}
+          My GitHub Activity and Contribution Graph:
+        </p>
         <GitHubGraph />
         <p> My LeetCode Stats:</p>
       </div>
