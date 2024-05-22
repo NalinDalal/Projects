@@ -2,6 +2,7 @@
 import "./App.css";
 import GitHubGraph from "./GitHubGraph";
 import MarkdownContent from "./MarkdownContent";
+import MyDeployment from "./my_deployment";
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
             <br />
             <h1>My LeetCode Stats</h1>
             <MarkdownContent />
+
+            <div>
+              <MyDeployment />
+            </div>
           </div>
         </div>
       </div>
