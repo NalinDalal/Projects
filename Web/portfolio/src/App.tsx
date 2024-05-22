@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import "./App.css";
 import GitHubGraph from "./GitHubGraph";
 import MarkdownContent from "./MarkdownContent";
