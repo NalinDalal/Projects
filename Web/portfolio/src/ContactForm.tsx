@@ -1,13 +1,13 @@
-import React, { useState, useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const form = useRef();
-
+  //@ts-ignore
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
+    emailjs //@ts-ignore
       .sendForm("service_o7uvaom", "template_qr99caa", form.current, {
         publicKey: "CeI_EByylL4eHjhqi",
       })
@@ -22,6 +22,7 @@ const ContactForm = () => {
   };
 
   return (
+    //@ts-ignore
     <form ref={form} onSubmit={sendEmail}>
       <label style={{ color: "white" }}>Name</label>
       <input type="text" name="user_name" />
