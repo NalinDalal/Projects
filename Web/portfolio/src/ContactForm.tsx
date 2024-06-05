@@ -1,20 +1,20 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [stateMessage, setStateMessage] = useState(null);
+  const [stateMessage, setStateMessage] = useState<string | null>(null);
 
-  const handleFormSubmit = async (e) => {
+  const handleFormSubmit = async (e: any) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     try {
       const response = await emailjs.sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        process.env.REACT_APP_SERVICE_ID || "",
+        process.env.REACT_APP_TEMPLATE_ID || "",
         e.target,
-        process.env.REACT_APP_PUBLIC_KEY,
+        process.env.REACT_APP_PUBLIC_KEY || "",
       );
       if (response.status === 200) {
         setStateMessage("Message sent!");

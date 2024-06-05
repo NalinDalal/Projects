@@ -26,11 +26,13 @@ const GitHubCalendar: React.FC = () => {
     // Execute GitHubCalendar function
     const GitHubCalendarFunction = () => {
       if (
-        typeof window !== "undefined" &&
-        typeof window.GitHubCalendar === "function"
+        typeof window !== "undefined" && //@ts-ignore
+        typeof window.GitHubCalendar === "function" //@ts-ignore
       ) {
+        //@ts-ignore
         window.GitHubCalendar(".calendar", username);
         // or enable responsive functionality
+        // @ts-ignore
         window.GitHubCalendar(".calendar", username, { responsive: true });
       }
     };

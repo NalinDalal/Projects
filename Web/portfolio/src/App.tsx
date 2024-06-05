@@ -1,6 +1,6 @@
-import { useState } from "react";
+//import { useState } from "react";
 import ReactMarkdown from "react-markdown";
-import GitHubCalendar from "./GitHubCalendar";
+//import GitHubCalendar from "./GitHubCalendar";
 import "./App.css";
 import ContactForm from "./ContactForm";
 
