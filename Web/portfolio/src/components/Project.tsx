@@ -22,6 +22,13 @@ export const Project = () => {
           </p>
         </a>
       </div>
+      <div>
+        <a href="https://projects-8fv2-1rjlps814-nalindalals-projects.vercel.app/">
+          <p className="block mt-1 text-lg leading-tight font-small text-indigo-600 hover:underline">
+            QR Code App
+          </p>
+        </a>
+      </div>
     </div>
   );
 };
