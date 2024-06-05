@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import "./App.css";
-import ContactForm from "./ContactForm";
+import ContactForm from "./components/ContactForm";
+import GitHubCalendar from "./GitHubCalendar";
 
 function App() {
   return (
@@ -177,7 +178,12 @@ function App() {
           </a>
         </div>
       </div>
-
+      {/* My Projects section*/}
+      <div>
+        <p className="text-xl font-semibold text-gray-900 dark:text-white">
+          My Projects:
+        </p>
+      </div>
       <div className="w-full text-center mb-6">
         <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
           <br />
@@ -189,6 +195,9 @@ function App() {
           <br />
           My GitHub Stats:
         </h2>
+        <div>
+          <GitHubCalendar />
+        </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div>
             <img

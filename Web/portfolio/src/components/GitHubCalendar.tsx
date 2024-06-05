@@ -1,8 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 
 const GitHubCalendar: React.FC = () => {
-  const calendarRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     const username = "nalindalal";
     // Include the library
@@ -19,6 +17,12 @@ const GitHubCalendar: React.FC = () => {
       "https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css";
     document.head.appendChild(link);
 
+    // Prepare a container for your calendar
+    const calendarContainer = document.createElement("div");
+    calendarContainer.className = "calendar";
+    calendarContainer.innerHTML = "Loading the data just for you";
+    document.body.appendChild(calendarContainer);
+
     // Execute GitHubCalendar function
     const GitHubCalendarFunction = () => {
       if (
@@ -26,12 +30,10 @@ const GitHubCalendar: React.FC = () => {
         typeof window.GitHubCalendar === "function" //@ts-ignore
       ) {
         //@ts-ignore
-        window.GitHubCalendar(calendarRef.current, username);
+        window.GitHubCalendar(".calendar", username);
         // or enable responsive functionality
         // @ts-ignore
-        window.GitHubCalendar(calendarRef.current, username, {
-          responsive: true,
-        });
+        window.GitHubCalendar(".calendar", username, { responsive: true });
       }
     };
 
@@ -42,16 +44,11 @@ const GitHubCalendar: React.FC = () => {
     return () => {
       document.body.removeChild(script);
       document.head.removeChild(link);
+      document.body.removeChild(calendarContainer);
     };
   }, []);
 
-  return (
-    <div className="github-calendar-container">
-      <div ref={calendarRef} className="calendar">
-        Loading the data just for you...
-      </div>
-    </div>
-  ); // This component doesn't render anything visible
+  return null; // This component doesn't render anything visible
 };
 
 export default GitHubCalendar;
