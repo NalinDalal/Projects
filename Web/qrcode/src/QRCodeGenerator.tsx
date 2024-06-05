@@ -5,7 +5,7 @@ function QRCodeGenerator() {
   const [text, setText] = useState("");
   const [generated, setGenerated] = useState(false);
 
-  //@ts-ignore
+  //@ts-expect-error
   const handleChange = (e) => {
     setText(e.target.value);
     setGenerated(false);
