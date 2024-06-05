@@ -1,20 +1,35 @@
-# React + TypeScript + Vite
-
-# Portfolio Website
-
-this repo name is portfolio, we will try to move contents from portfolio-react-copy to this one{this will be finalised}
-
-to import the github contribution graph let's do one thing, let's use create a html page and import that into our react page
-
-yeah done
-
-iniialise tailwind
+Initialise the repository:
 
 ```bash
-npm install -D tailwindcss
-npx tailwindcss init
+npm create vite@latest
+
+> npx
+> create-vite
+
+✔ Project name: … portfolio
+✔ Select a framework: › React
+✔ Select a variant: › TypeScript
+
+Scaffolding project in /Users/nalindalal/Downloads/github_contri/Projects/Web/portfolio...
+
+Done. Now run:
+
+  cd portfolio
+  npm install
+  npm run dev
+
 ```
 
-go to tailwind.config.js and update the content
+Requirements:
+My Introduction
+My Resume
+My Projects(Frontend, Backend, Deployments)
+My Skills
+My Contact(Social Media-LinkedIn, Twitter, Email, etc.)
 
-now head back to App.tsx
+LeetCode Apis
+GitHub Graph
+LeetCode Graph
+
+Document all this shit
+Style is as much as possible, use gradients as background,
