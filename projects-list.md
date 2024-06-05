@@ -59,6 +59,31 @@ https://youtu.be/oxFr7we3LC8?si=oPvDEMULpdAFEIMC
     React App- https://youtu.be/oxFr7we3LC8?si=yymEmg8RmS0D1MmG
     Application to make video calls
 
+Building a Markdown Editor in React
+
+Building a VR Headset Launch Website with Tailwind CSS in React
+
+Building a Home Decor Website with Material-UI in React
+
+Building a Job Portal with useCallback in React
+
+Building a Text-Only Social Media Website with useMemo in React
+
+Shopping cart app by utilising useReducer hook
+
+Implementing Theme Switching
+
+Build a Realtime Chat Application
+
+- Learn about real-time tools like websockets.
+- Perfect project to transition from beginner to intermediate level.
+
+Building your own version of Git for deep understanding of version control
+
+HTTP server is a intermediate project that teaches a lot about web workings.
+
+- Teaches about TCP connections, HTTP headers, verbs, and more.
+
 ## DSA
 
 1. File Zipper: Huffman coding, it's working
@@ -137,6 +162,7 @@ Tracker App
 • Movie/book/product recommendation system.
 • Image recognition or object detection model.
 • Customer service chatbot.
+AI girlfriend/boyfriend project - utilizing AI advancements, high resume value, learning AI app development, negative coolness factor
 
 ## Cybersecurity:
 
@@ -145,3 +171,63 @@ Tracker App
 • Network traffic analysis for anomaly detection.
 • Ransomware detection and recovery.
 • Software vulnerability investigation.
+
+## BlockChain/Web3:
+
+• Decentralized cryptocurrency exchange.
+• Decentralized voting system.
+• Decentralized voting app.
+• Decentralized voting platform.
+
+Bit Torrent
+
+- Learning about building a bit torrent
+- Understanding the bit torrent protocol and torrent files
+- Exploring file sharing and distributing large data
+
+---
+
+Discover amazing programming projects on GitHub to build your coding skills
+
+- Explore step-by-step guides for creating technologies like 3D renderer and blockchain
+- Tailored project ideas ranging from beginner to expert level programming
+
+Programming projects for beginners and advanced developers
+
+- Creating a portfolio to showcase work and learn HTML/CSS basics
+- Building your own version of Git for deep understanding of version control
+
+Projects for web development, AI, and smart mirror
+
+- Web development project - fundamentals of JavaScript/PHP, basic difficulty, decent learning value
+- AI girlfriend/boyfriend project - utilizing AI advancements, high resume value, learning AI app development, negative coolness factor
+
+Create a personal finance tracker using chart visualization
+
+- Integrate third party like Plaid for actual banking information to enhance project
+- Learn about data visualization, graphs, and charts, valuable for resume and learning
+
+Build a Realtime Chat Application
+
+- Learn about real-time tools like websockets.
+- Perfect project to transition from beginner to intermediate level.
+
+Cod crafters offers detailed step-by-step guides for 10x developer level projects.
+
+- Experienced Engineers guide you through building projects like Redux, Git, Docker, SQLite, and more from scratch.
+- Learn fundamental concepts behind the technologies and gain a deep understanding of each technology.
+
+Learning about building a bit torrent
+
+- Understanding the bit torrent protocol and torrent files
+- Exploring file sharing and distributing large data
+
+Project 16: HTTP server is a intermediate project that teaches a lot about web workings.
+
+- Teaches about TCP connections, HTTP headers, verbs, and more.
+- Difficulty: 5/10, Learning value: 7/10, Coolness: 8/10
+
+QR code generator project overview
+
+- Simple beginner project involving converting items into QR codes.
+- Rated low in difficulty and resume worthiness, high in coolness factor.
