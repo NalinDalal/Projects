@@ -1,7 +1,8 @@
 import ReactMarkdown from "react-markdown";
 import "./App.css";
 import ContactForm from "./components/ContactForm";
-import GitHubCalendar from "./GitHubCalendar";
+import GitHubCalendar from "./components/GitHubCalendar";
+import { Project } from "./components/Project";
 
 function App() {
   return (
@@ -178,11 +179,13 @@ function App() {
           </a>
         </div>
       </div>
+      <br />
       {/* My Projects section*/}
-      <div>
-        <p className="text-xl font-semibold text-gray-900 dark:text-white">
+      <div className="w-full text-center mb-6">
+        <p className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
           My Projects:
         </p>
+        <Project />
       </div>
       <div className="w-full text-center mb-6">
         <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">

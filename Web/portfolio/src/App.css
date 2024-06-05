@@ -48,3 +48,12 @@
 .github-calendar-container .calendar .contrib-number {
   color: white; /* Change text color to white */
 }
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #007bff;
+}
