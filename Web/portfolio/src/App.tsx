@@ -188,20 +188,19 @@ function App() {
         <Project />
       </div>
       <div className="w-full text-center mb-6">
-        <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-          <br />
-          <a href="https://orange-ginnifer-5.tiiny.site" target="_blank">
-            <h2 className="block mt-1 text-lg leading-tight font-medium text-indigo-600 hover:underline">
-              My Resume
-            </h2>
-          </a>
-          <br />
-          My GitHub Stats:
-        </h2>
-        <div>
-          <GitHubCalendar />
-        </div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <a href="https://orange-ginnifer-5.tiiny.site" target="_blank">
+          <h2 className="block mt-1 text-lg leading-tight font-medium text-indigo-600 hover:underline">
+            My Resume
+          </h2>
+        </a>
+        <br />
+        <div
+          style={{ display: "flex", justifyContent: "center" }}
+          className="w-full text-center mb-6 text-white"
+        >
+          <p style={{ color: "white" }} className="text-center">
+            <b>GitHub Stats</b>
+          </p>
           <div>
             <img
               src="https://github-readme-stats.vercel.app/api?username=nalindalal&show_icons=true&theme=dark"
@@ -220,17 +219,19 @@ function App() {
           </div>
         </div>
       </div>
+
+      <GitHubCalendar />
+
       <div className="w-full text-center mb-6">
         <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
           My LeetCode Stats:
         </h2>
-        <div>
+        <div className="w-full text-center mb-6">
           <ReactMarkdown>
             ![LeetCodeStats](https://leetcard.jacoblin.cool/Nalindalal2004?theme=dark&font=Noto%20Sans%20Kannada&ext=heatmap)
           </ReactMarkdown>
         </div>
       </div>
-
       <div>
         <h1 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
           Contact Me

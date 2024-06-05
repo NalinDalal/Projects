@@ -1,6 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 
 const GitHubCalendar: React.FC = () => {
+  const calendarRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     const username = "nalindalal";
     // Include the library
@@ -17,12 +19,6 @@ const GitHubCalendar: React.FC = () => {
       "https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css";
     document.head.appendChild(link);
 
-    // Prepare a container for your calendar
-    const calendarContainer = document.createElement("div");
-    calendarContainer.className = "calendar";
-    calendarContainer.innerHTML = "Loading the data just for you";
-    document.body.appendChild(calendarContainer);
-
     // Execute GitHubCalendar function
     const GitHubCalendarFunction = () => {
       if (
@@ -30,10 +26,12 @@ const GitHubCalendar: React.FC = () => {
         typeof window.GitHubCalendar === "function" //@ts-ignore
       ) {
         //@ts-ignore
-        window.GitHubCalendar(".calendar", username);
+        window.GitHubCalendar(calendarRef.current, username);
         // or enable responsive functionality
         // @ts-ignore
-        window.GitHubCalendar(".calendar", username, { responsive: true });
+        window.GitHubCalendar(calendarRef.current, username, {
+          responsive: true,
+        });
       }
     };
 
@@ -44,12 +42,17 @@ const GitHubCalendar: React.FC = () => {
     return () => {
       document.body.removeChild(script);
       document.head.removeChild(link);
-      document.body.removeChild(calendarContainer);
     };
   }, []);
 
-  return null; // This component doesn't render anything visible
+  return (
+    <div className="github-calendar-container">
+      <div ref={calendarRef} className="calendar">
+        Loading the data just for you...
+      </div>
+    </div>
+  ); // This component doesn't render anything visible
 };
 
 export default GitHubCalendar;
-//find a way to utilise this into main app.tsx
+//find a way to utilise this into main app.tsx
