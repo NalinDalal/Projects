@@ -24,8 +24,9 @@ function App() {
               Software Engineer
             </div>
             <a
-              href="https://www.linkedin.com/in/nalindalal2004/"
+              href="https://www.linkedin.com/in/nalin-dalal-815617271/"
               className="block mt-1 text-lg leading-tight font-medium text-indigo-600 hover:underline"
+              target="_blank"
             >
               My LinkedIn
             </a>
