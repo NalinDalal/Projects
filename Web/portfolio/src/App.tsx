@@ -199,7 +199,7 @@ function App() {
           style={{ display: "flex", justifyContent: "center" }}
           className="w-full text-center mb-6 text-white"
         >
-          <p style={{ color: "white" }} className="text-center">
+          <p className="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">
             <b>GitHub Stats</b>
           </p>
           <div>
