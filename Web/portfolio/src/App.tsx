@@ -49,7 +49,7 @@ function App() {
                 <p>
                   C++, bash, shell scripting, HTML, CSS, JavaScript, Node.js,
                   Git, GitHub, NoSql, Mongo DB, DOM, React.js, TypeScript,
-                  Prisma, Postgres, AWS, Docker, Next.js
+                  Prisma, Postgres, AWS, Docker, Next.js, JWT, NextAuth,
                 </p>
               </p>
             </div>
