@@ -222,7 +222,13 @@ function App() {
       </div>
 
       <GitHubCalendar />
-
+      <div>
+        <div>
+          <ReactMarkdown>
+            ![trophy](https://github-profile-trophy.vercel.app/?username=nalindalal)
+          </ReactMarkdown>
+        </div>
+      </div>
       <div className="w-full text-center mb-6">
         <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
           My LeetCode Stats:
