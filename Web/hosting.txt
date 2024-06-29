@@ -49,3 +49,14 @@ https://www.cyclic.sh/
 13.Coolify
 Pull Request Deployments, Server Automations, CICD, Free SSL Certificates.
 https://coolify.io/
+
+14. Tiny Host 
+https://tiiny.host/login
+
+15. InfinityFree
+
+16. 000WebHost
+
+17. AwardSpace
+
+18. Freehostia

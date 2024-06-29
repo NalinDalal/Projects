@@ -3,6 +3,5 @@ That is all the steps like how i initialized the repo,logic for the code, how to
 
 Ahh, will contain the logs date-wise too
 
-11.04.2024
-i added a nav bar in the frontend, which has a dashboard connecting to different aspects based on SRS diagram
-will do more next time
+25.06.2024
+initalised the next app, monorepo actually
