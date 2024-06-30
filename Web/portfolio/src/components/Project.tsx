@@ -29,6 +29,13 @@ export const Project = () => {
           </p>
         </a>
       </div>
+      <div>
+        <a href="https://react-quill-editor-beige.vercel.app/">
+          <p className="block mt-1 text-lg leading-tight font-small text-indigo-600 hover:underline">
+            Quill Editor
+          </p>
+        </a>
+      </div>
     </div>
   );
 };
