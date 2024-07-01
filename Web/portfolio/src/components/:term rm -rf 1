@@ -36,6 +36,13 @@ export const Project = () => {
           </p>
         </a>
       </div>
+      <div>
+        <a href="https://medium-clone-six-mauve.vercel.app/Blogs">
+          <p className="block mt-1 text-lg leading-tight font-small text-indigo-600 hover:underline">
+            Blogging Website
+          </p>
+        </a>
+      </div>
     </div>
   );
 };
