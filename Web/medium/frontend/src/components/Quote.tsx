@@ -4,7 +4,6 @@ export const Quote = () => {
       <div className="flex justify-center">
         <div className="max-w-lg">
           <div className="text-3xl font-bold">
-            Quote Page
             <br /> "The customer support I received was exceptional. The support
             team went above and beyond to address my concerns"
           </div>
